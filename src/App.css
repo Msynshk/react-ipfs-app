@@ -1,40 +1,176 @@
-.App {
-  text-align: center;
-}
 body{
-  background-color: black;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 1s linear;
-  }
-}
-
-.App-header {
-/*   background-color: #282c34; */
-  min-height: 100vh;
+  background-color: #000000ef;
+  color:white ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container{
+  
+  width: 930px;
+}
+
+
+header {
+  
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #252424bb;
+  padding-bottom: 30px;
+padding-top: 10px;
+border-radius: 9px;
+}
+
+header h1{
+  color: rgb(11, 192, 247);
+}
+
+.des{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: start;
+  font-size: 20px;
+  text-align: justify;
+ 
+}
+
+
+a{
+  text-decoration: none;
+  color: aqua;
+  font-size: 18px;
+}
+
+.main-container{
+
+/* background-color: antiquewhite; */
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 20px;
+justify-content: center;
+
+
+}
+
+
+.u-box{
+  background-color: #252424bb;
+  border-radius: 8px;
+  height: 400px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* font-weight: bold; */
+  font-size: 18px;
+}
+
+.u-heading{
+
+  font-size: 30px;
+}
+
+
+.d-box{
+  background-color: #252424bb;
+  border-radius: 8px;
+  height: 400px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.d-heading{
+
+  font-size: 30px;
+}
+
+.cid-container{
+  display: flex;
+  gap: 10px;
+}
+
+.cid-lbl{
+  font-size: 25px;
+}
+
+.cid-inp{
+  border-radius: 4px;
+  width: 280px;
+  height: 25px;
+  border: none;
+  padding: 6px;
+  font-size: 14px;
+}
+.Dimg{
+  width: 40px;
+
+}
+
+
+.d-button{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  font-size: 18px;
+  width: 220px;
+  height: 50px;
+  text-decoration: none;
+  align-items: center;
+  gap: 10px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  border-radius: 9px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.d-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#file{
+  display: none;
+}
+#fileicon{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.upload{
+  width: 130px;
+  font-size: 17px;
+  font-weight: bold;
+  height: 55px;
+  justify-content: center;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(10, 88, 99);
+}
+
+form{
+  display: flex;
+  /* flex-direction: column; */
+
+gap: 10PX;
+}
+
+button{
+  width: 100px;
 }
